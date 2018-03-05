@@ -1,6 +1,105 @@
 body {
-  background-image: url(https://images.contentful.com/635jp660g7e4/33x5giPOd2Owq2Y2K8SoOE/fc7077875810bb9810ad4356975dfb4a/hp-hero2.jpg?w=2560&q=80);
+  background-color: #EEEDE6;
+  padding: 0px 15px;
+  margin: auto;
+}
+body, html {
+    height: 100%;
 }
 h1 {
+  color: #012B3E;
+  Font-family: sans-serif;
+  font-weight: lighter;
+  text-align:center;
+  font-size: 16px;
+  padding: 0px;
+  margin: 8px;
+}
+ul {
+  width: 1560px;
+  height: 30px;
+  padding: 38px 45px;
+  background-color: white;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+li {
+  float: left;
+}
+.logo {
+  height: 35px;
+  width: auto;
+}
+li a {
+  color: #012B3E;
+  Font-family: sans-serif;
+  font-weight: lighter;
+  padding-right: 35px;
+  padding-top: 10px;
+  
+}
+a:link, a:visited {
+  color: #012B3E;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.hero-image {
+  background-image:url(https://images.contentful.com/635jp660g7e4/33x5giPOd2Owq2Y2K8SoOE/fc7077875810bb9810ad4356975dfb4a/hp-hero2.jpg?w=2560&q=80);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+.hero-text {
   Color: white;
+  Font-family: garamond;
+  font-size: 55px;
+}
+.left-hero-text {
+  position: absolute;
+  top: 38%;
+  right: 300px;
+  left: 100px;
+  text-align: left;
+  white-space: nowrap;
+
+}
+.right-hero-text{
+  position: absolute;
+  top: 38%;
+  left: 400px;
+  right: 100px;
+  text-align: right;
+  white-space: nowrap;
+}
+.button {
+  position: absolute;
+  top: 48%;
+  right: 300px;
+  left: 100px;
+  border-color: white;
+  border-width: 2px;
+  background-color: transparent;
+  color: white;
+  Font-family: sans-serif;
+  font-weight: lighter;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color:white;
+  color: #103449;
+
 }
