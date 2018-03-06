@@ -95,24 +95,36 @@ a:link, a:visited {
   color: #103449;
 }
 
-.NBA-Callout {
+.NBA-Module {
   background-color:white;
   flex-grow: 1;
   display: flex;
+  padding-top: 90px;
+  padding-left: 60px;
+  flex-direction: row;
+}
+.NBA_Module_Text {
+  padding-left: 65px;
+  padding-top: 180px;
   Font-family: garamond;
-  font-size:50px;
-  padding-bottom: 70px;
-  font-weight: bolder;
+  font-size:20px;
+  font-weight: lighter;
   Color: #103449;
-  flex-direction: column;
 }
-.left-column-2 {
-  padding-top: 80px;
-  padding-left: 40px;
+.NBA-Away {
+  margin-bottom: 15px;
 }
-.right-column-2 {
-  display:block;
-
-
-
+.Make-Your-Move {
+  border-color: #103449;
+  border-bottom-width: medium;
+  border-right-width: medium;
+  background-color: white;
+  color: #103449;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 10px;
+  font-weight: lighter;
 }
