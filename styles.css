@@ -78,7 +78,7 @@ a:link, a:visited {
   white-space: nowrap;
 }
 .button {
-  position: relative;
+  position: absolute;
   top: 48%;
   right: 300px;
   left: 100px;
