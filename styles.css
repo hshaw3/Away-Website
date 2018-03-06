@@ -4,9 +4,9 @@ body {
   margin: auto;
 }
 body, html {
-    height: 100%;
+    height: 1000px;
 }
-h1 {
+.nba {
   color: #012B3E;
   Font-family: sans-serif;
   font-weight: lighter;
@@ -15,28 +15,26 @@ h1 {
   padding: 0px;
   margin: 8px;
 }
-ul {
-  width: 1560px;
-  height: 30px;
-  padding: 38px 45px;
-  background-color: white;
+
+.nav-container {
+  list-style:none;
   margin: 0;
-  list-style-type: none;
-  text-align: center;
+  padding: 32px 30px;
+  background: white;
+  display: flex;
+  justify-content:space-between;
 }
-li {
-  float: left;
-}
-.logo {
-  height: 35px;
-  width: auto;
-}
-li a {
+.nav-container a {
   color: #012B3E;
   Font-family: sans-serif;
   font-weight: lighter;
-  padding-right: 35px;
-  padding-top: 10px;
+  padding: 0px 20px;
+  flex-grow: 1;
+
+}
+.left-nav, .right-nav {
+  display: inline-flex;
+  align-items: center;
 
 }
 a:link, a:visited {
@@ -44,59 +42,77 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-
-
-.hero-image {
-  background-image:url(https://images.contentful.com/635jp660g7e4/33x5giPOd2Owq2Y2K8SoOE/fc7077875810bb9810ad4356975dfb4a/hp-hero2.jpg?w=2560&q=80);
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:cover;
-  position: relative;
+.logo {
+  height: 35px;
+  width: auto;
 }
-.hero-text {
-  Color: white;
+.fa-shopping-bag {
+  color: #012B3E;
+  padding-left: 20px;
+}
+
+.background {
+  color: white;
+  display: flex;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-image: url(https://images.contentful.com/635jp660g7e4/33x5giPOd2Owq2Y2K8SoOE/fc7077875810bb9810ad4356975dfb4a/hp-hero2.jpg?w=2560&q=80);
+  background-size: cover;
+  background-position: center center;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
   Font-family: garamond;
-  font-size: 55px;
+  font-size:50px;
+  padding-bottom: 70px;
+  font-weight: lighter;
 }
-.left-hero-text {
-  position: absolute;
-  top: 38%;
-  right: 300px;
-  left: 100px;
-  text-align: left;
-  white-space: nowrap;
+.left-column{
+  padding-left: 150px;
+}
+.right-column{
+  padding-right: 150px;
 
 }
-.right-hero-text{
-  position: absolute;
-  top: 38%;
-  left: 400px;
-  right: 100px;
-  text-align: right;
-  white-space: nowrap;
-}
-.button {
-  position: absolute;
-  top: 48%;
-  right: 300px;
-  left: 100px;
-  border-color: white;
-  border-width: 2px;
+.shop-now {
+  border: 2px solid white;
   background-color: transparent;
   color: white;
-  Font-family: sans-serif;
-  font-weight: lighter;
-  padding: 10px 25px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 12px;
   letter-spacing: 3px;
   cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding: 10px 25px;
 }
-.button:hover {
+
+.shop-now:hover {
   background-color:white;
   color: #103449;
+}
+
+.NBA-Callout {
+  background-color:white;
+  flex-grow: 1;
+  display: flex;
+  Font-family: garamond;
+  font-size:50px;
+  padding-bottom: 70px;
+  font-weight: bolder;
+  Color: #103449;
+  flex-direction: column;
+}
+.left-column-2 {
+  padding-top: 80px;
+  padding-left: 40px;
+}
+.right-column-2 {
+  display:block;
+
+
 
 }
