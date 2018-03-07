@@ -95,7 +95,7 @@ a:link, a:visited {
   color: #103449;
 }
 
-.NBA-Module {
+.NBA_Module {
   background-color:white;
   flex-grow: 1;
   display: flex;
@@ -115,6 +115,35 @@ a:link, a:visited {
   margin-bottom: 15px;
 }
 .Make-Your-Move {
+  border-color: #103449;
+  border-bottom-width: medium;
+  border-right-width: medium;
+  background-color: white;
+  color: #103449;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.Lisbon_Module {
+  background-color:white;
+  flex-grow: 1;
+  display: flex;
+  padding-top: 90px;
+  padding-left: 60px;
+}
+.Lisbon_Module_Text {
+  padding-left: 65px;
+  padding-top: 180px;
+  Font-family: garamond;
+  font-size:20px;
+  font-weight: lighter;
+  Color: #103449;
+}
+.see-the-city {
   border-color: #103449;
   border-bottom-width: medium;
   border-right-width: medium;
