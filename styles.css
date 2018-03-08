@@ -95,7 +95,7 @@ a:link, a:visited {
   color: #103449;
 }
 
-.NBA_Module {
+.NBA_Module, .Monogram_Module {
   background-color:white;
   flex-grow: 1;
   display: flex;
@@ -103,7 +103,7 @@ a:link, a:visited {
   padding-left: 60px;
   flex-direction: row;
 }
-.NBA_Module_Text {
+.NBA_Module_Text, .Monogram_Module_Text {
   padding-left: 65px;
   padding-top: 180px;
   Font-family: garamond;
@@ -111,10 +111,10 @@ a:link, a:visited {
   font-weight: lighter;
   Color: #103449;
 }
-.NBA-Away {
+.NBA-Away, .Away-in-lisbon, .The-Monogram-Edition {
   margin-bottom: 15px;
 }
-.Make-Your-Move {
+.Make-Your-Move, .See-The-City, .Shop-Now {
   border-color: #103449;
   border-bottom-width: medium;
   border-right-width: medium;
@@ -134,20 +134,33 @@ a:link, a:visited {
   display: flex;
   padding-top: 90px;
   padding-left: 60px;
+  flex-direction: row-reverse;
 }
 .Lisbon_Module_Text {
-  padding-left: 65px;
+  padding-right: 65px;
   padding-top: 180px;
   Font-family: garamond;
   font-size:20px;
   font-weight: lighter;
   Color: #103449;
 }
-.see-the-city {
+.Monogram_Module {
+  padding-bottom: 90px;
+}
+.Mission {
+  text-align:center;
+  Font-family: garamond;
+  font-size:30px;
+  Color: #103449;
+  word-wrap: normal;
+  padding: 150px 150px;
+  line-height: 50px;
+}
+.Our-Story {
   border-color: #103449;
   border-bottom-width: medium;
   border-right-width: medium;
-  background-color: white;
+  background-color: transparent;
   color: #103449;
   letter-spacing: 1px;
   cursor: pointer;
@@ -155,5 +168,4 @@ a:link, a:visited {
   margin-top: 10px;
   padding: 12px 25px;
   font-size: 10px;
-  font-weight: lighter;
 }
