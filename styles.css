@@ -114,7 +114,7 @@ a:link, a:visited {
 .NBA-Away, .Away-in-lisbon, .The-Monogram-Edition {
   margin-bottom: 15px;
 }
-.Make-Your-Move, .See-The-City, .Shop-Now {
+.Make-Your-Move, .See-The-City, .Shop-Now, .Read-Here {
   border-color: #103449;
   border-bottom-width: medium;
   border-right-width: medium;
@@ -128,13 +128,14 @@ a:link, a:visited {
   font-size: 10px;
   font-weight: lighter;
 }
-.Lisbon_Module {
+.Lisbon_Module, .Magazine_Module {
   background-color:white;
   flex-grow: 1;
   display: flex;
   padding-top: 90px;
   padding-left: 60px;
   flex-direction: row-reverse;
+
 }
 .Lisbon_Module_Text {
   padding-right: 65px;
@@ -168,4 +169,33 @@ a:link, a:visited {
   margin-top: 10px;
   padding: 12px 25px;
   font-size: 10px;
+}
+img {
+  width: 100%;
+}
+.Magazine_Module_Text {
+  word-wrap: break-word;
+  width:500px;
+  margin-right: 100px;
+  text-align: left;
+
+}
+.Here {
+  Font-family: garamond;
+  font-size:20px;
+  Color: #103449;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.Mag-Here {
+  Font-family: garamond;
+  font-size:30px;
+  Color: #103449;
+}
+.Mag-Desc {
+  font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.01em;
+    color: #727373;
+    font-family: Graphik Web,Helvetica Neue,Arial,"sans-serif";
 }
