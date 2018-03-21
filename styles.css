@@ -103,7 +103,7 @@ a:link, a:visited {
   padding-left: 60px;
   flex-direction: row;
 }
-.NBA_Module_Text, .Monogram_Module_Text {
+.NBA_Module_Text, .Monogram_Module_Text, .Vogue_Module_Text {
   padding-left: 65px;
   padding-top: 180px;
   Font-family: garamond;
@@ -111,7 +111,7 @@ a:link, a:visited {
   font-weight: lighter;
   Color: #103449;
 }
-.NBA-Away, .Away-in-lisbon, .The-Monogram-Edition {
+.NBA-Away, .Away-in-lisbon, .The-Monogram-Edition, .Vogue_Module {
   margin-bottom: 15px;
 }
 .Make-Your-Move, .See-The-City, .Shop-Now, .Read-Here {
@@ -187,12 +187,12 @@ img {
   text-transform: uppercase;
   vertical-align: middle;
 }
-.Mag-Here {
+.Mag-Here, .Vogue_Module {
   Font-family: garamond;
   font-size:30px;
   Color: #103449;
 }
-.Mag-Desc {
+.Mag-Desc, .Vogue_Desc {
   font-size: 16px;
     line-height: 24px;
     letter-spacing: -.01em;
