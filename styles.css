@@ -95,7 +95,7 @@ a:link, a:visited {
   color: #103449;
 }
 
-.NBA_Module, .Monogram_Module {
+.NBA_Module, .Monogram_Module, .Vogue_Module {
   background-color:white;
   flex-grow: 1;
   display: flex;
@@ -170,8 +170,8 @@ a:link, a:visited {
   padding: 12px 25px;
   font-size: 10px;
 }
-img {
-  width: 50%;
+.img {
+  width: 100%;
 }
 .Magazine_Module_Text {
   word-wrap: break-word;
@@ -198,4 +198,7 @@ img {
     letter-spacing: -.01em;
     color: #727373;
     font-family: Graphik Web,Helvetica Neue,Arial,"sans-serif";
+}
+.img_2 {
+  width: 85%;
 }
