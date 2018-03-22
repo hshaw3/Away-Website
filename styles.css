@@ -103,7 +103,7 @@ a:link, a:visited {
   padding-left: 60px;
   flex-direction: row;
 }
-.NBA_Module_Text, .Monogram_Module_Text, .Vogue_Module_Text {
+.NBA_Module_Text, .Monogram_Module_Text, {
   padding-left: 65px;
   padding-top: 180px;
   Font-family: garamond;
@@ -201,4 +201,12 @@ a:link, a:visited {
 }
 .img_2 {
   width: 85%;
+}
+h4{
+  font-family: Lyon Text Web,Times New Roman,Georgia,"serif";
+  font-size: 28px;
+  line-height: 34px;
+  -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #111;
 }
